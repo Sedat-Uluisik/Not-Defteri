@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/insertSubNote"
+        android:title="Alt kategori ekle"
+        android:icon="@drawable/add_sub_category_icon_32"/>
+    <item android:id="@+id/insertImage"
+        android:title="Resim Ekle"
+        android:icon="@drawable/add_image_icon_32"/>
+
+</menu>

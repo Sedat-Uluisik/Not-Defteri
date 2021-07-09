@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FF0000"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/warning_icon_24"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="Sadece seçili not silinsin mi? Yoksa sahip olduğu tüm alt kategoriler de silinsin mi?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Buna resimler de dahil!" />
+
+    <Button
+        android:id="@+id/onlyNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/custom_backg_for_button"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Sadece notu sil"/>
+
+    <Button
+        android:id="@+id/allNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/custom_backg_for_button"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Tümünü sil"/>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/custom_backg_for_button"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Iptal"/>
+
+</LinearLayout>
