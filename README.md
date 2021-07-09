@@ -1,5 +1,7 @@
 ## Not-Defteri uygulaması  <br/>
 
+### Bu uygulama notlarınızı kaydetmenize, notunuza ait alt kategoriler ya da resim eklemenizi sağlar.
+
 **Projede güncel teknolojileri kullanmaya ve temiz kod yazmaya özen gösterdim. <br/>
 Room, MVVM, View Binding, Hilt, Coroutine gibi yöntemler kullandım. <br/>
 Resim işlemleri için gerekli kütüphanelerden yardım aldım.**
